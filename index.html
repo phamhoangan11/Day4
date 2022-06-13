@@ -2,14 +2,9 @@
 <html>
 <head>
     <title>Lesson 2 - CSS</title>
-
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/lesson2.css"> -->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./main.css">
-    <!-- <style type="text/css">
-        p {
-            color: red;
-        }
-    </style> -->
 </head>
 <body>
     <div id="header">
@@ -63,7 +58,7 @@
                 <input type="text" class="auth-form__input" placeholder="City">
             </div>
     
-            <div class="auth-form__group col col-third">
+            <div class="auth-form__group col col-four">
                 <p class="auth-form__text">State</p>
                 <select name="Choose" id="state">
                     <option value="">Choose...</option>
@@ -75,7 +70,7 @@
                 </select>
             </div>
         
-            <div class="auth-form__group col col-third">
+            <div class="auth-form__group col col-four">
                 <p class="auth-form__text">Zip</p>
                 <input type="text" class="auth-form__input" placeholder="City">
             </div>
@@ -88,6 +83,164 @@
         </div>
 
         <button class="btn">Sign in</button>
+    </div>
+
+    <div class="footer">
+        <div class="footer__top container">
+            <div class="footer-title row-content">
+                <p>HỆ THỐNG CỬA HÀNG</p>
+            </div>
+        </div>
+
+        <div class="footer__top-store_branch container">
+            <div class="footer__top-branch__info  col-third row-content">
+                <p class="footer__top-branch_name row"><strong >Biz Hà Đông ( Metro Hà Đông )</strong></p>
+                <p class="footer__top-branch__info-address row">Tầng 3 - TTTTM MeLinh Hà Đông, Số 1 Hà Cầu - Hà Đông - HN</p>
+                <p class="footer__top-branch__info-phone row">
+                    TEL: 
+                    <a href="tel:02422026789">02422026789</a>
+                </p>
+                <p class="footer__top-branch__info-open_time row">
+                    Mở cửa: 9h <br>
+                    Đóng cửa: 22h
+                </p>
+            </div>
+
+            <div class="footer__top-branch__info col-third row-content">
+                <p class="footer__top-branch_name row"><strong >Biz Long Biên ( Big C Long Biên )</strong></p>
+                <p class="footer__top-branch__info-address row">Tầng 2, TTTM Savico Long Biên, số 7-9 đường Nguyễn Văn Linh, quận Long Biên, TP Hà Nội</p>
+                <p class="footer__top-branch__info-phone row">
+                    TEL: 
+                    <a href="tel:02422026789">024 6291 3000</a>
+                </p>
+                <p class="footer__top-branch__info-open_time row">
+                    Mở cửa: 9h <br>
+                    Đóng cửa: 22h
+                </p>
+            </div>
+
+            <div class="footer__top-branch__info col-third row-content">
+                <p class="footer__top-branch_name row"><strong >Biz Mỹ Đình ( Big C Mỹ Đình )</strong></p>
+                <p class="footer__top-branch__info-address row">Tầng 3 - TTTM The Garden - Đường Mễ Trì - Mỹ Đình - Hà Nội (BIG C Mễ Trì)</p>
+                <p class="footer__top-branch__info-phone row">
+                    TEL: 
+                    <a href="tel:02422026789">024 2245 3555</a>
+                </p>
+                <p class="footer__top-branch__info-open_time row">
+                    Mở cửa: 9h <br>
+                    Đóng cửa: 22h
+                </p>
+            </div>
+        </div>
+
+        
+        <div class="footer__between container">
+            <div class="footer__between-info col-six row-content">
+                <div class="footer-title row">THÔNG TIN</div>
+                <ul class="footer__between-lists">
+                    <li class="row"><a class="footer__between-list__item" href="#">Giới thiệu</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Sản Phẩm</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Tin tức</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Tuyển dụng</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__between-conduct col-six row-content">
+                <div class="footer-title row">CHÍNH SÁCH</div>
+                <ul class="footer__between-lists">
+                    <li class="row"><a class="footer__between-list__item" href="#">Mua hàng online</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Hướng dẫn thanh toán</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Chính sách bảo hành</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Hình thưc vận chuyển</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Chính sách đổi trả</a></li>
+                    <li class="row"><a class="footer__between-list__item" href="#">Hỏi đáp nhanh</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__between-contact col-third row-content">
+                <div class="footer-title row">MUA HÀNG ONLINE NHẬN ƯU ĐÃI</div>
+                <div class="footer__between-contact__form">
+                    <div class="row footer__tooltip">
+                        <input type="text" placeholder="Họ tên" class="footer__between-contact-form-input">
+                        <div class="footer__tooltiptex">Please fill out this field</div>
+                    </div>
+
+                    <div class="row footer__tooltip">
+                        <input type="number" placeholder="Số điện thoại" class="footer__between-contact-form-input ">
+                        <p class="footer__tooltiptex">Please fill out this field</p>
+                    </div>
+                    <div class="row">
+                        <input type="email" placeholder="Địa chỉ Email" class="footer__between-contact-form-input">
+                    </div>
+                    <div class="row">
+                        <textarea name="" id="" placeholder="Yêu cầu của quý khách" class="footer__between-contact-form-input" rows="2"></textarea>
+                    </div>
+                </div>
+                <button class="btn-s">Gửi đi</button>
+            </div>
+
+            <div class="footer__between-social row-content">
+                <div class="footer-title row">KẾT NỐI TỚI BIZ NỘI THẤT</div>
+                <div class="footer__between-social__list">
+                    <a class="footer__between-social__facebook" href="https://www.facebook.com/" target="_blank">
+                        <i class="ti-facebook"></i>
+                    </a>
+                    <a class="footer__between-social__youtube" href="" target="_blank">
+                        <i class="ti-youtube"></i>
+                    </a>
+                    <a class="footer__between-social__instagram">
+                        <i class="ti-instagram"></i>
+                    </a>
+                    
+                    <a class="footer__between-social__pinterest" href="" target="_blank">
+                        <i class="ti-pinterest"></i>
+                    </a>
+                    <a class="footer__between-social__twitter" href="" target="_blank">
+                        <i class="ti-twitter"></i>
+                    </a>
+                </div>
+                <div class="footer__between-hotline">
+                    <div class="footer__between-hotline_suppot row">
+                        <a href="tel:0933896686">
+                            <i class="fa fa-phone"></i>
+                            093 389 6686 | Hotline 24/7
+                        </a>
+                    </div>
+                    <div class="footer__between-hotline_suppot row">
+                        <a href="tel:0912305775">
+                            <i class="fa fa-phone"></i>
+                            091 230 5775 | Bảo hành
+                        </a>
+                    </div>
+                    <div class="footer__between-img">
+                        <a href="http://online.gov.vn/CustomWebsiteDisplay.aspx?DocId=31835" target="_blank">
+                            <img src="//bizweb.dktcdn.net/100/139/088/themes/743117/assets/bo_cong_thuong.png?1654067392764"
+                                data-lazyload="//bizweb.dktcdn.net/100/139/088/themes/743117/assets/bo_cong_thuong.png?1654067392764"
+                                alt="www.Biznoithat.com" style="max-width:140px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <ul class="footer__bottom-list">
+                <li class="footer__bottom-list--space"><a href="#">PHÒNG KHÁCH</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">PHÒNG ĂN</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">PHÒNG NGỦ</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">ĐỒ TRANG TRÍ</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">ĐỆM</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">SẢN PHẨM MỚI</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">SẢN PHẨM BÁN CHẠY</a></li>
+                <li class="footer__bottom-list--space" ><a href="#">ALL</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="property">
+        <p class="property__text">@2020 Bản quyền thuộc về
+            <b>www.Biznoithat.com</b>
+        </p>
     </div>
 </body>
 </html>
